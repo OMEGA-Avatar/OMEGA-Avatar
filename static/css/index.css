@@ -205,6 +205,29 @@ body {
   margin-right: 0.5rem;
 }
 
+.publication-affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+  max-width: 900px;
+  margin: 0.25rem auto 0;
+  color: #667085;
+  font-size: 1.05rem !important;
+  line-height: 1.5;
+  letter-spacing: 0.005em;
+}
+
+.publication-affiliations .author-block {
+  margin-right: 0;
+  white-space: nowrap;
+}
+
+.publication-affiliations .eql-cntrb {
+  flex-basis: 100%;
+  color: #7a8494;
+}
+
 .publication-banner img {
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-lg);
@@ -748,6 +771,4 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
-
 

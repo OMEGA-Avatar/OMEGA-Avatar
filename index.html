@@ -11,7 +11,7 @@
   <meta name="description" content="We propose OMEGA-Avatar, the first feed-forward framework that simultaneously generates a generalizable, 360°-complete, and animatable 3D Gaussian head from a single image. Starting from a feed-forward and animatable framework, we address the 360° full-head avatar generation problem with two novel components. First, to overcome poor hair modeling in full-head avatar generation, we introduce a semantic-aware mesh deformation module that integrates multi-view normals to optimize a FLAME head with hair while preserving its topology structure. Second, to enable effective feed-forward decoding of full-head features, we propose a multi-view feature splatting module that constructs a shared canonical UV representation from features across multiple views through differentiable bilinear splatting, hierarchical UV mapping, and visibility-aware fusion. This approach preserves both global structural coherence and local high-frequency details across all viewpoints, ensuring 360° consistency without per-instance optimization.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="Single-view Feed-forward Generation, Generalizable Full-head Avatars, Animation-ready, Gaussian Splatting">
-  <!-- TODO: List all authors -->
+  <meta name="author" content="Zehao Xia, Yiqun Wang, Zhengda Lu, Kai Liu, Jun Xiao, Peter Wonka">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
@@ -50,9 +50,15 @@
   <meta name="twitter:image:alt" content="OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatars - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatarsw">
+  <meta name="citation_title" content="OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatars">
+  <meta name="citation_author" content="Xia, Zehao">
+  <meta name="citation_author" content="Wang, Yiqun">
+  <meta name="citation_author" content="Lu, Zhengda">
+  <meta name="citation_author" content="Liu, Kai">
+  <meta name="citation_author" content="Xiao, Jun">
+  <meta name="citation_author" content="Wonka, Peter">
   <meta name="citation_publication_date" content="2026">
-<!--  <meta name="citation_conference_title" content="CONFERENCE_NAME">-->
+  <meta name="citation_conference_title" content="SIGGRAPH Asia 2026">
 <!--  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">-->
 
   <!-- Additional SEO -->
@@ -155,23 +161,32 @@
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
             <h1 class="title is-1 publication-title">OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatars</h1>
+            <div class="is-size-4 publication-authors">
+              <span class="author-block has-text-danger">SIGGRAPH Asia 2026</span>
+            </div>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-              <a href="">Zehao Xia</a><sup></sup>,</span>
+              <a href="https://github.com/GeneralWhite" target="_blank" rel="noopener noreferrer">Zehao Xia</a><sup>1</sup>,</span>
               <span class="author-block">
-                <a href="">Yiqun Wang</a><sup>*</sup>,</span>
+                <a href="https://sites.google.com/view/yiqun-wang/home" target="_blank" rel="noopener noreferrer">Yiqun Wang</a><sup>1*</sup>,</span>
               <span class="author-block">
-                <a href="">Zhengda Lu</a><sup></sup>,
+                <a href="https://scholar.google.com.hk/citations?user=CQzHyecAAAAJ" target="_blank" rel="noopener noreferrer">Zhengda Lu</a><sup>2</sup>,
               </span>
               <span class="author-block">
-                <a href="">Kai Liu</a><sup></sup>,
+                <a href="https://faculty.cqu.edu.cn/KaiLiu/zh_CN/index.htm" target="_blank" rel="noopener noreferrer">Kai Liu</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="">Jun Xiao</a><sup></sup>,
+                <a href="https://people.ucas.ac.cn/~xiaojun" target="_blank" rel="noopener noreferrer">Jun Xiao</a><sup>2</sup>,
               </span>
               <span class="author-block">
-                <a href="">Peter Wonka</a><sup></sup>,
+                <a href="https://peterwonka.net/" target="_blank" rel="noopener noreferrer">Peter Wonka</a><sup>3</sup>,
               </span>
+            </div>
+            <div class="is-size-6 publication-authors publication-affiliations">
+              <span class="author-block"><sup>1</sup>Chongqing University</span>
+              <span class="author-block"><sup>2</sup>Chinese Academy of Sciences</span>
+              <span class="author-block"><sup>3</sup>KAUST</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
             </div>
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
@@ -556,12 +571,12 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{OMEGA-Avatar2026,
+      <pre id="bibtex-code"><code>@inproceedings{OMEGA-Avatar2026,
   title={OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatars},
-  author={Zehao Xia, Yiqun Wang, Zhengda Lu, Kai Liu, Jun Xiao, Peter Wonka},
-  journal={arXiv preprint arXiv:2602.11693},
+  author={Zehao Xia and Yiqun Wang and Zhengda Lu and Kai Liu and Jun Xiao and Peter Wonka},
+  booktitle={SIGGRAPH Asia 2026},
   year={2026},
-  url={https://omega-avatar.github.io/OMEGA-Avatar}
+  url={https://omega-avatar.github.io/OMEGA-Avatar/}
 }</code></pre>
     </div>
 </section>
